@@ -37,6 +37,8 @@ int main(int argc, char *argv[]){
 			r = _pow(atof(a));
 			printf("%lf",r);
 		}
+		
+		else {printf("Erreur de parametres");}
 	}
 	else {printf("Erreur de parametres");}
 	return 0;
